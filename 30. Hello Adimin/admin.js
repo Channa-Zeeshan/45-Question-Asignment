@@ -1,0 +1,10 @@
+var Username = ['Admin', 'Zeeshan', 'Nauman', 'Arsalan', 'Junaid'];
+var name_of_user = "Zeeshan";
+if (Username.includes(name_of_user)) {
+    if (name_of_user == "Admin") {
+        console.log("Hello ".concat(name_of_user, ", Would you like to see status report"));
+    }
+    else {
+        console.log("Hello ".concat(name_of_user, ", Thankyou for logging in again"));
+    }
+}
